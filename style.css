@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.main-container {
+    height: 700px;
+    width: 700px;
+    border: 5px solid red;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: repeat(14, 1fr);
+}
+
+.divStyle {
+    background-color: blue;
+}
+
+.divStyleFilled {
+    background-color: red;
+}
+
+/* .divStyle:hover {
+    background-color: white;
+} */
+
